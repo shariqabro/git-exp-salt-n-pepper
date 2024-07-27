@@ -1,0 +1,33 @@
+/* navbar started */
+.logo-img{
+    width: 165px;
+}
+.nav-item{
+    font-size: 2rem;
+}
+.navbar{
+    padding: 15px;
+}
+.franchise-btn{
+    border: 1px solid #ffffff;
+    padding: 20px 25px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+}
+.order-btn{
+    background-color: #ed1c24;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 30px;
+    font-size: 1.6rem;
+}
+.circle-btn{
+    background-color: #ffffff;
+    /* color: #ed1c24; */
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.arrow-icon{
+    font-size: 1.5rem;
+}
+/* navbar ended */

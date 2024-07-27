@@ -1,0 +1,112 @@
+@font-face{
+    font-family: "apercu-light";
+    src: url(../assets/Apercu\ Light.otf);
+}
+
+
+@font-face{
+    font-family: "apercu-medium";
+    src: url(../assets/Apercu\ Medium.otf);
+}
+
+@font-face{
+    font-family: "apercu-bold";
+    src: url(../assets/Apercu\ Pro\ Bold.otf);
+}
+
+#root{
+    --red: #ed1c24;
+    --white: #ffffff;
+    --black: #000000;
+    --green: #28a745;
+    --light: apercu-light;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: apercu-light;
+}
+
+
+
+
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* utility classes started */
+
+/* display flex started */
+
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.item-center{
+    align-items: center;
+}
+.gap-1{
+    gap: 5px;
+}
+.gap-2{
+    gap: 10px;
+}
+.gap-3{
+    gap: 15px;
+}
+.gap-4{
+    gap: 20px;
+}
+.gap-5{
+    gap: 25px;
+}
+
+
+
+/* display flex ended */
+
+.text-center{
+    text-align: center;
+}
+
+.m-1{
+    margin: 5px;
+}
+.mx-1{
+    margin: 0px 5px;
+}
+.my-1{
+    margin: 10px 0px;
+}
+.rounded{
+    border-radius: 20px;
+}
+.text-none{
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* utility classes ended */
