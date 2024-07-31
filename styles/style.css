@@ -116,3 +116,16 @@
     display: flex;
     justify-content: center;
 }
+.banner-card{
+    position: relative;
+}
+.banner-card{
+    max-width: 100%;
+    height: auto;
+}
+.banner-text{
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    margin-left: 550px;
+}
